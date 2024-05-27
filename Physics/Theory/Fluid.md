@@ -4,11 +4,7 @@
 
 ## Ideal Fluid
 
-## Define
-
 不可压缩、不计粘性的流体.
-
-## Property 
 
 - 给定5个量:速度$(v_x, v_y, v_z)$,压强$p$,密度$ρ$,可完全确定运动流体的状态.
 
@@ -65,39 +61,37 @@ $- ∇ p$: 单位体积流体上的作用力.
 
 ## Stable fluid
 
-  - Define  
-    流体所在区域任意一点的位置都不随时间变化的流体.
-  
-  - Example  
-    - 均匀向下重力场$\boldsymbol g = g \hat{\boldsymbol z}$中的静止流体.
-      $$
-      \begin{align*}
-        ∇ p &= ρ \boldsymbol g  \\
-        \Rightarrow\quad p &= -ρ g z + const.  \tag{$\boldsymbol g = g \hat{\boldsymbol z}$, 积分}  \\
-        \Rightarrow\quad p &= -ρ g h + p_0  \tag{距液面深度$h$, 大气压$p_0$}
-      \end{align*}
-      $$
-    - 质量极大的由于万有引力而结合在一起的一团流体 (如, 恒星).
-      $$
-      \begin{align*}
-        Δ \varphi &= 4 π G ρ  \tag{引力势}  \\
-        ∇ · \left(\frac{1}{ρ} ∇ p \right) &= -4 π G ρ
-      \end{align*}
-      $$
+
+流体所在区域任意一点的位置都不随时间变化的流体.
+
+- 均匀向下重力场$\boldsymbol g = g \hat{\boldsymbol z}$中的静止流体.
+  $$
+  \begin{align*}
+    ∇ p &= ρ \boldsymbol g  \\
+    \Rightarrow\quad p &= -ρ g z + const.  \tag{$\boldsymbol g = g \hat{\boldsymbol z}$, 积分}  \\
+    \Rightarrow\quad p &= -ρ g h + p_0  \tag{距液面深度$h$, 大气压$p_0$}
+  \end{align*}
+  $$
+- 质量极大的由于万有引力而结合在一起的一团流体 (如, 恒星).
+  $$
+  \begin{align*}
+    Δ \varphi &= 4 π G ρ  \tag{引力势}  \\
+    ∇ · \left(\frac{1}{ρ} ∇ p \right) &= -4 π G ρ
+  \end{align*}
+  $$
 
 ## Steady fluid
 
-- Define  
-  流体所在区域任意一点的速度都不随时间变化的流体.
-  
-- Property   
-  - Bernoulli equation
-    $$
-    \begin{align*}
-      \frac{v^2}{2} + w &= const.  \\
-      \frac{v^2}{2} + w + g z &= const.  \tag{重力场中}
-    \end{align*}
-    $$
+
+流体所在区域任意一点的速度都不随时间变化的流体. 
+
+- Bernoulli equation
+  $$
+  \begin{align*}
+    \frac{v^2}{2} + w &= const.  \\
+    \frac{v^2}{2} + w + g z &= const.  \tag{重力场中}
+  \end{align*}
+  $$
 
 ## Viscous Fluid
 
@@ -119,4 +113,3 @@ $$
 - $ρ$: Density
 - Pressure: $∇ ·∇ P = ∇ ·v·ρ/ dt$
 
-## Example

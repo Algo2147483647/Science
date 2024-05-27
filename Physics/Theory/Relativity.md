@@ -2,35 +2,37 @@
 
 [TOC]
 
-### The relativity principle
-所有自然定律, 在所有惯性参考系中都相同.
+### Fundamental
 
-### The propagation speed of interactions
-相互作用的最大传播速度, 在所有惯性参考系中都一样(相对性原理可得). 可以证明, 这个速度是光在真空中的速度. (取$c\to \infty$, 即可过渡到经典力学.)
-$$c = 2.998 × 10^8 m/s$$ 
+**The relativity principle**: All natural laws are the same in all inertial reference frames.
+
+**The propagation speed of interactions**: The maximum propagation speed of interaction is the same in all inertial reference frames (as can be derived from the principle of relativity). It can be proven that this speed is the speed of light in a vacuum.  (By taking the limit as $c\to \infty$, we can transition to classical mechanics.)
+$$
+c = 2.998 × 10^8 m/s
+$$
 
 - 时间是相对的, 不同参考系中时间的流逝速度不同. "两个不同事件之间有一定的事件间隔"这句话, 只有在指定哪一个参考系下才有意义, 因为在参考系$K_1$同时发生的两个事件, 在参考系$K_2$可能是不同时的.
 
 ### Minkowski Space
 
-Minkowski时空是三维欧几里得空间和时间的组合四维流形$(t, x, y, z)$.
+Minkowski spacetime is a four-dimensional manifold that combines three-dimensional Euclidean space and time. 
+$$
+(t, x, y, z)
+$$
 
-#### Event
+**Event**: 一个事件由其发生的位置和时间所描述$(t, x, y, z)$.
 
-- Define
-  一个事件由其发生的位置和时间所描述$(t, x, y, z)$.
+**Event interval**:
+$$
+\begin{align*}
+  s_{12} &= (c^2 (t_2-t_1)^2 - (x_2-x_1)^2 - (y_2-y_1)^2 - (z_2-z_1)^2)^{1/2}  \\
+  -d s &= (c^2 \mathrm d t^2 - \mathrm d x^2 - \mathrm d y^2 - \mathrm d z^2)^{1/2}
+\end{align*}
+$$
 
-#### Event interval
-
-- Define
-  $$\begin{align*}
-    s_{12} &= (c^2 (t_2-t_1)^2 - (x_2-x_1)^2 - (y_2-y_1)^2 - (z_2-z_1)^2)^{1/2}  \\
-    -d s &= (c^2 \mathrm d t^2 - \mathrm d x^2 - \mathrm d y^2 - \mathrm d z^2)^{1/2}
-  \end{align*}$$
-- Property
-  - 两个事件的间隔在任何惯性系下都一样. 这个不变性,就是光速不变的数学表示.        
-  - 类时间隔, 仅在时间上有变化的间隔, 故间隔为实数.
-  - 类空间隔, 仅在空间上有变化的间隔, 故间隔为虚数.
+- 两个事件的间隔在任何惯性系下都一样. 这个不变性,就是光速不变的数学表示.        
+- 类时间隔, 仅在时间上有变化的间隔, 故间隔为实数.
+- 类空间隔, 仅在空间上有变化的间隔, 故间隔为虚数.
 
 ### Lorentz Transformation
 

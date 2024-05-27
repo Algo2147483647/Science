@@ -2,7 +2,7 @@
 
 [TOC]
 
-### Curved Space-Time & Metric
+## Curved Space-Time & Metric
 
 在n维时空中，度规是一个对称的二次微分形式（双线性型），通常表示为g。度规g具有以下特性：
 
@@ -62,7 +62,7 @@ $$
 
 为了得到具体的轨迹，你需要为特定的度规解上述的微分方程。例如，对于施瓦西度规（描述一个非旋转黑洞的度规），解测地线方程会给你物体在黑洞周围的轨迹，包括经典的光的弯曲轨迹。
 
-### Einstein gravitational field equation
+## Einstein gravitational field equation
 
 $$
 G_{\mu\nu} = \frac{8\pi G}{c^4} T_{\mu\nu}
