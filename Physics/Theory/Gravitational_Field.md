@@ -90,12 +90,12 @@ $$
 
 5. **结合**
 
-   将上述内容结合起来，我们得到爱因斯坦-希尔伯特动作：
-   $$
-   S = \int d^4x \sqrt{-g} \left( \frac{R}{16\pi G} + \mathcal{L}_M \right)
-   $$
+将上述内容结合起来，我们得到爱因斯坦-希尔伯特动作：
+$$
+S = \int d^4x \sqrt{-g} \left( \frac{R}{16\pi G} + \mathcal{L}_M \right)
+$$
    
-   其中 $\frac{1}{16\pi G}$ 是一个常数，确保在弱场极限下回归到牛顿引力。
+其中 $\frac{1}{16\pi G}$ 是一个常数，确保在弱场极限下回归到牛顿引力。
 
 这种动作提供了一个简洁、优雅且广泛协变的方式来描述引力和物质的相互作用。
 
@@ -104,88 +104,33 @@ $$
 爱因斯坦的引力场方程是描述广义相对论中引力的基本方程之一。这个方程可以从最小作用量原理（作用量最小原理）出发，通过变分原理推导得出。下面是推导爱因斯坦的引力场方程的基本步骤：
 
 1. 定义作用量：首先，我们定义整个系统的作用量\(S\)，这个作用量由两部分组成：物质部分的作用量\(S_m\)和引力部分的作用量\(S_g\)。作用量的总和可以写成：
-   $$
-   S = S_m + S_g
-   $$
+$$
+S = S_m + S_g
+$$
 
 2. 物质部分的作用量：物质部分的作用量\(S_m\)通常是关于物质场的拉格朗日密度\(L_m\)的积分，乘以一个因子\(-1/c\):
-   $$
-   S_m = -\frac{1}{c}\int L_m \sqrt{-g} d^4x\
-   $$
-   这里，\(c\)是光速，\(g\)是度规张量的行列式（即度规张量的行列式分量的乘积），\(d^4x\)是时空坐标的微元体积。
+$$
+S_m = -\frac{1}{c}\int L_m \sqrt{-g} d^4x\
+$$
+这里，\(c\)是光速，\(g\)是度规张量的行列式（即度规张量的行列式分量的乘积），\(d^4x\)是时空坐标的微元体积。
 
 3. 引力部分的作用量：引力部分的作用量\(S_g\)通常由爱因斯坦-希尔伯特作用量给出，它与度规张量\(g_{\mu\nu}\)及其曲率有关：
-   $$
-   S_g = \frac{c^3}{16\pi G}\int R\sqrt{-g} d^4x
-   $$
-   其中，\(G\)是引力常数，\(R\)是时空的标量曲率，\(d^4x\)是时空坐标的微元体积。
+$$
+S_g = \frac{c^3}{16\pi G}\int R\sqrt{-g} d^4x
+$$
+其中，\(G\)是引力常数，\(R\)是时空的标量曲率，\(d^4x\)是时空坐标的微元体积。
 
 4. 最小作用量原理：根据最小作用量原理，物理系统的真实运动轨迹对应于使总作用量\(S\)最小的情况。因此，我们需要对总作用量\(S\)进行变分，找到一个满足最小作用量原理的度规张量\(g_{\mu\nu}\)。
 
 5. 变分原理：对作用量\(S\)进行变分，得到度规张量\(g_{\mu\nu}\)的场方程。这可以通过变分原理实现，即对作用量\(S\)关于度规张量\(g_{\mu\nu}\)的变分求解：
-   $$
-   \frac{\delta S}{\delta g_{\mu\nu}} = 0
-   $$
+$$
+\frac{\delta S}{\delta g_{\mu\nu}} = 0
+$$
    
 6. 场方程：将变分原理应用于总作用量\(S = S_m + S_g\)，分别对\(S_m\)和\(S_g\)进行变分，然后得到引力场方程，也就是爱因斯坦场方程：
-   $$
-   G_{\mu\nu} = \frac{8\pi G}{c^4} T_{\mu\nu}
-   $$
-   这里，\(G_{\mu\nu}\)是爱因斯坦张量，\(T_{\mu\nu}\)是能动张量，它描述了物质分布在时空中的能量和动量分布。
+$$
+G_{\mu\nu} = \frac{8\pi G}{c^4} T_{\mu\nu}
+$$
+这里，\(G_{\mu\nu}\)是爱因斯坦张量，\(T_{\mu\nu}\)是能动张量，它描述了物质分布在时空中的能量和动量分布。
 
 通过这个推导过程，我们可以得到爱因斯坦的引力场方程，它描述了引力场如何由物质分布所决定，并建立了广义相对论的基础。这个方程在描述引力场的行为和预测引力场的效应方面非常成功，例如描述了黑洞、宇宙膨胀和引力透镜等现象。
-
-## Two-body gravitational motion
-
-一个质点并作为原点静止时, 另一个质点的轨迹方程如下所述。其中, 圆锥曲线的极坐标方程, $e$离心率, $p$半通径.
-$$
-\begin{align*}
-  r &= \frac{p}{1 - e \sin(θ + θ_0)}  \\
-  p &= \frac{L^2}{G M m^2}  \\
-  e &= \sqrt{1 + 2 \frac{E}{m} \left(\frac{L}{G M m}\right)^2}
-\end{align*}
-$$
-
-
-二体场景在惯性系中可以抽象为绕等效质心运动。
-
-- Proof
-
-  - 建立方程组。其中$L, E$是常量. $r, θ, v_r, v_θ$是变量. 3个方程4个变量.求出 $r-θ$ 关系式.
-    $$
-    \begin{align*}
-      L &= m r v_θ  \tag{角动量守恒}  \\
-      E &= \frac{1}{2} m (v_r^2 + v_θ^2) - G \frac{M m}{r}  \tag{能量守恒}  \\
-      \frac{\mathrm d r}{\mathrm d θ} &= r \frac{v_r}{v_θ}  \tag{$v_r = \frac{\mathrm d r}{\mathrm d t}, v_θ = r \frac{\mathrm d θ}{\mathrm d t}$}
-    \end{align*}
-    $$
-    
-  - 解方程组
-    $$
-    \begin{align*}
-      v_θ &= \frac{L}{m r}  \tag{独立$v_θ$}  \\
-      v_r &= \sqrt{\frac{2 E}{m} + \frac{2 G M}{r} -\left(\frac{L}{m}\right)^2 \frac{1}{r^2}}  \tag{独立$v_r$}
-    \end{align*}
-    $$
-    $$
-    \begin{align*}
-      \Rightarrow\quad  \frac{\mathrm d r}{\mathrm d θ} &= r \frac{v_r}{v_θ}  \\
-        &= r \frac{m r \sqrt{\frac{2 E}{m} + \frac{2 G M}{r} - \left(\frac{L}{m}\right)^2 \frac{1}{r^2}}}{L}  \tag{代入}
-    \end{align*}
-    $$
-
-    $$
-    \begin{align*}
-    \Rightarrow\quad  \int \frac{\mathrm d r}{r^2 \sqrt{\frac{2 E}{m} + \frac{2 G M}{r} - \left(\frac{L}{m}\right)^2 \frac{1}{r^2}}} &= \int \frac{m}{L} \mathrm d θ  \tag{两边独立$r,θ$,并积分}  \\
-    \Rightarrow\quad  - \int \frac{\mathrm d \left(\frac{1}{r}\right)}{\sqrt{\frac{2 E}{m} + 2 G M \frac{1}{r} - (\frac{L}{m})^2 \frac{1}{r^2}}} &= \frac{m}{L} θ + C_θ  \tag{换元}  \\
-    \Rightarrow\quad  - \left(\frac{m}{L} \arcsin \frac{\left(\frac{L}{m}\right)^2 \frac{1}{r} - G M}{\sqrt{G^2 M^2 + \frac{2 E}{m} \left(\frac{L}{m}\right)^2 }} + C_r\right) &= \frac{m}{L} θ + C_θ  \tag{积分公式$\int \frac{\mathrm d x}{\sqrt{c+b x-a x^2}} = \frac{1}{\sqrt{a}} \arcsin \frac{2 a x-b}{\sqrt{b^2 + 4 a c}} + C$}  \\
-    \Rightarrow\quad  - \left(\frac{1}{L_0} \arcsin \frac{L_0^2 \frac{1}{r} - G M}{\sqrt{G^2 M^2 + 2 E_0 L_0^2 }} + C_r\right) &= \frac{1}{L_0} θ + C_θ  \tag{$L_0 = \frac{L}{m}, E_0 = \frac{E}{m}$}
-    \end{align*}
-    $$
-
-    $$
-    \begin{align*}
-      \Rightarrow\quad  r &= \frac{L_0^2}{\sqrt{G^2 M^2 + 2 E_0 L_0^2 } \sin(-θ + θ_0) + G M}  \\
-      \Rightarrow\quad  r &= \frac{L_{00}^2 G M}{1 + \sqrt{1 + 2 E_0 L_{00}^2 } \sin(-θ + θ_0)}  \tag{$L_{00} = \frac{L_0}{G M} = \frac{L}{G M m}$}
-    \end{align*}
-    $$
