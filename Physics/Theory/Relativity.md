@@ -2,7 +2,7 @@
 
 [TOC]
 
-### Fundamental
+## Fundamental
 
 **The relativity principle**: All natural laws are the same in all inertial reference frames.
 
@@ -13,7 +13,7 @@ $$
 
 - 时间是相对的, 不同参考系中时间的流逝速度不同. "两个不同事件之间有一定的事件间隔"这句话, 只有在指定哪一个参考系下才有意义, 因为在参考系$K_1$同时发生的两个事件, 在参考系$K_2$可能是不同时的.
 
-### Minkowski Space
+## Minkowski Space
 
 Minkowski spacetime is a four-dimensional manifold that combines three-dimensional Euclidean space and time. 
 $$
@@ -34,14 +34,14 @@ $$
 - 类时间隔, 仅在时间上有变化的间隔, 故间隔为实数.
 - 类空间隔, 仅在空间上有变化的间隔, 故间隔为虚数.
 
-### Lorentz Transformation
+## Lorentz Transformation
 
 $$
 \begin{align*}
-    \left(\begin{matrix} t' \\ x' \\ y' \\ z' \end{matrix}\right) &= \left(\begin{matrix} 
-    -\frac{1}{\sqrt{1-(\frac{V}{c})^2}} & \frac{-\frac{V}{c^2}}{\sqrt{1-( \frac{V}{c} )^2}}  \\
-    -\frac{-V}{\sqrt{1-( \frac{V}{c} )^2}} & \frac{1}{\sqrt{1-( \frac{V}{c} )^2}} \\
-    & & 1\\ & & & 1 \end{matrix}\right)   \left(\begin{matrix} t \\ x \\ y \\ z \end{matrix}\right)
+    \left(\begin{matrix} ct' \\ x' \\ y' \\ z' \end{matrix}\right) &= \left(\begin{matrix} 
+    \frac{1}{\sqrt{1-(\frac{V}{c})^2}} & \frac{-\frac{V}{c}}{\sqrt{1-( \frac{V}{c} )^2}}  \\
+    \frac{-\frac{V}{c}}{\sqrt{1-( \frac{V}{c} )^2}} & \frac{1}{\sqrt{1-( \frac{V}{c} )^2}} \\
+    & & 1\\ & & & 1 \end{matrix}\right)   \left(\begin{matrix} ct \\ x \\ y \\ z \end{matrix}\right)
   \end{align*}
 $$
   设两个惯性参考系 $K, K'$, 其中$K'$沿$x$轴以速度$V$相对于$K$作相对运动.
@@ -96,27 +96,24 @@ $$
     \begin{align*}
     \Rightarrow \quad  & μ = \text{arctanh}\left(-\frac{V}{c}\right)\\
     \Rightarrow \quad  & \left\{\begin{matrix}
-        -\tanh μ = -\frac{V}{c} = \frac{\sinh μ}{\cosh μ}  \\
-        -\cosh^2 μ - \sinh^2 μ = 1
-        \end{matrix}\right.  \\
+    -\tanh μ = -\frac{V}{c} = \frac{\sinh μ}{\cosh μ}  \\
+    -\cosh^2 μ - \sinh^2 μ = 1
+    \end{matrix}\right.  \\
     \Rightarrow \quad  & \left\{\begin{matrix}
-        -\sinh μ = \frac{-\frac{V}{c}}{\sqrt{1 - (\frac{V}{c})^2}}  \\
-        -\cosh μ = \frac{1}{\sqrt{1 - (\frac{V}{c})^2}}
-        \end{matrix}\right.  \\
-    \Rightarrow \quad  &   \left(\begin{matrix} c t' \\ x' \end{matrix}\right) =   \left(\begin{matrix}
-        -\frac{1}{\sqrt{1-( \frac{V}{c} )^2}} & \frac{-\frac{V}{c}}{\sqrt{1-(\frac{V}{c} )^2}}\\
-        -\frac{-\frac{V}{c}}{\sqrt{1-( \frac{V}{c} )^2}} & \frac{1}{\sqrt{1-( \frac{V}{c} )^2}}
-        \end{matrix}\right)   \left(\begin{matrix} c t \\ x \end{matrix}\right)  \\
-    \Rightarrow \quad  &   \left(\begin{matrix} t' \\ x' \end{matrix}\right) = \left(\begin{matrix}
-        -\frac{1}{\sqrt{1-( \frac{V}{c} )^2}} & \frac{-\frac{V}{c^2}}{\sqrt{1-(\frac{V}{c} )^2}}\\
-        -\frac{-V}{\sqrt{1-( \frac{V}{c} )^2}} & \frac{1}{\sqrt{1-( \frac{V}{c} )^2}}
-        \end{matrix}\right)   \left(\begin{matrix} t \\ x \end{matrix}\right)
+    -\sinh μ = \frac{-\frac{V}{c}}{\sqrt{1 - (\frac{V}{c})^2}}  \\
+    -\cosh μ = \frac{1}{\sqrt{1 - (\frac{V}{c})^2}}
+    \end{matrix}\right.  \\
+    \Rightarrow \quad  &   \left(\begin{matrix} c t' \\ x' \end{matrix}\right) =   \left(\begin{matrix}\frac{1}{\sqrt{1-( \frac{V}{c} )^2}} & \frac{-\frac{V}{c}}{\sqrt{1-(\frac{V}{c} )^2}}\\ \frac{-\frac{V}{c}}{\sqrt{1-( \frac{V}{c} )^2}} & \frac{1}{\sqrt{1-( \frac{V}{c} )^2}}\end{matrix}\right)   \left(\begin{matrix} c t \\ x \end{matrix}\right)  \\
     \end{align*}
     $$
 
-#### Transform of speed
+### Transform of speed
 $$
-\Rightarrow v_x = \frac{v'_x + V}{1 + v'_x \frac{V}{c^2}}, \quad  v_y = \frac{v'_y \sqrt{1 - \frac{V^2}{c^2}}}{1 + v'_x \frac{V}{c^2}},\quad  v_z = \frac{v'_z \sqrt{1 - \frac{V^2}{c^2}}}{1 + v'_x \frac{V}{c^2}}
+\begin{align*}
+v_x &= \frac{v'_x + V}{1 + \frac{v'_x V}{c^2}}\\
+v_y &= \frac{v'_y \sqrt{1 - \frac{V^2}{c^2}}}{1 + \frac{v'_x V}{c^2}}\\
+v_z &= \frac{v'_z \sqrt{1 - \frac{V^2}{c^2}}}{1 + \frac{v'_x V}{c^2}}
+\end{align*}
 $$
 - Proof 
 
