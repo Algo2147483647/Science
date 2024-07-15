@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 12.0.0, SVG Export Plug-In  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+]>
+<svg  version="1.1" xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 width="514" height="287" viewBox="0 -0.625 514 287" enable-background="new 0 -0.625 514 287" xml:space="preserve">
+<defs>
+</defs>
+<line fill="none" stroke="#000000" stroke-width="5" x1="248.333" y1="136.153" x2="248.333" y2="69.569"/>
+<line fill="none" stroke="#000000" stroke-width="5" x1="265.667" y1="136.153" x2="265.667" y2="69.569"/>
+<line fill="none" stroke="#000000" stroke-width="5" x1="111.841" y1="219.156" x2="54.158" y2="185.899"/>
+<line fill="none" stroke="#000000" stroke-width="5" x1="342.841" y1="218.489" x2="285.158" y2="185.232"/>
+<line fill="none" stroke="#000000" stroke-width="5" x1="227.674" y1="185.946" x2="170.325" y2="219.775"/>
+<line fill="none" stroke="#000000" stroke-width="5" x1="457.34" y1="186.613" x2="399.99" y2="220.442"/>
+<rect y="144.486" fill="none" width="53.75" height="54.25"/>
+<text transform="matrix(1 0 0 1 0 196.0371)" font-family="'ArialMT'" font-size="72">H</text>
+<rect x="462" y="144.486" fill="none" width="53.75" height="54.25"/>
+<text transform="matrix(1 0 0 1 462 196.0371)" font-family="'ArialMT'" font-size="72">H</text>
+<rect x="112.75" y="210.736" fill="none" width="58.25" height="70.5"/>
+<text transform="matrix(1 0 0 1 112.75 262.2866)" font-family="'ArialMT'" font-size="72">O</text>
+<rect x="344.75" y="210.486" fill="none" width="58.25" height="70.5"/>
+<text transform="matrix(1 0 0 1 344.75 262.0366)" font-family="'ArialMT'" font-size="72">O</text>
+<rect x="229" y="10.236" fill="none" width="58.25" height="70.5"/>
+<text transform="matrix(1 0 0 1 229 61.7871)" font-family="'ArialMT'" font-size="72">O</text>
+<rect x="230.5" y="143.736" fill="none" width="72.75" height="80.5"/>
+<text transform="matrix(1 0 0 1 230.5 195.2866)" font-family="'ArialMT'" font-size="72">C</text>
+</svg>

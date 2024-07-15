@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   width="660"
+   height="556"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="Sodium_carbonate.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <metadata
+     id="metadata2551">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     inkscape:window-height="748"
+     inkscape:window-width="1316"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     guidetolerance="10.0"
+     gridtolerance="10.0"
+     objecttolerance="10.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     showgrid="false"
+     inkscape:zoom="0.91"
+     inkscape:cx="381.81945"
+     inkscape:cy="278.15986"
+     inkscape:window-x="46"
+     inkscape:window-y="-3"
+     inkscape:current-layer="g2494"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3028" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2490">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 275 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="660 : 275 : 1"
+       inkscape:persp3d-origin="330 : 183.33333 : 1"
+       id="perspective2553" />
+    <style
+       type="text/css"
+       id="style2492">path { fill:none;stroke:#000;stroke-width:10 } text { font-size:100px;fill:#000;font-family:Bitstream Vera Sans }</style>
+  </defs>
+  <g
+     transform="translate(-71.094331,-208.78125)"
+     id="g2494">
+    <text
+       x="105"
+       y="545"
+       style="font-size:100px;fill:#000000;font-family:Bitstream Vera Sans"
+       id="text2530">Na</text>
+    <text
+       x="537"
+       y="545"
+       style="font-size:100px;fill:#000000;font-family:Bitstream Vera Sans"
+       id="text2532">Na</text>
+    <text
+       x="105"
+       y="742"
+       style="font-size:100px;fill:#000000;font-family:Bitstream Vera Sans"
+       id="text2534">O</text>
+    <text
+       x="614"
+       y="742"
+       style="font-size:100px;fill:#000000;font-family:Bitstream Vera Sans"
+       id="text2536">O</text>
+    <text
+       x="367"
+       y="301"
+       style="font-size:100px;fill:#000000;font-family:Bitstream Vera Sans"
+       id="text2538">O</text>
+    <text
+       x="662"
+       y="503"
+       style="font-size:57px;fill:#000000;font-family:Bitstream Vera Sans"
+       id="text2540">+</text>
+    <text
+       x="232"
+       y="503"
+       style="font-size:57px;fill:#000000;font-family:Bitstream Vera Sans"
+       id="text2542">+</text>
+    <path
+       d="m 422.18281,318.68533 0,182.62319"
+       id="path2589"
+       style="fill:none;stroke:#000000;stroke-width:8.62117672"
+       inkscape:connector-curvature="0" />
+    <text
+       x="368.98419"
+       y="583.84344"
+       style="font-size:100px;fill:#000000;font-family:Bitstream Vera Sans"
+       id="text2593">C</text>
+    <path
+       d="M 370.9713,575.72289 183.99778,681.13279"
+       id="path2609"
+       style="fill:none;stroke:#000000;stroke-width:9.68461227"
+       inkscape:connector-curvature="0" />
+    <path
+       d="M 444.34538,575.38506 614.39564,675.67725"
+       id="path2611"
+       style="fill:none;stroke:#000000;stroke-width:9.0089407"
+       inkscape:connector-curvature="0" />
+    <text
+       x="54.365669"
+       y="1033.5751"
+       style="font-size:87.81800842px;fill:#000000;font-family:Bitstream Vera Sans"
+       id="text2685"
+       transform="scale(1.5406668,0.64906961)">-</text>
+    <text
+       x="436.06903"
+       y="1033.5751"
+       style="font-size:87.81800842px;fill:#000000;font-family:Bitstream Vera Sans"
+       id="text2687"
+       transform="scale(1.5406668,0.64906961)">-</text>
+    <path
+       d="m 389.94018,319.03706 0,182.62319"
+       id="path2589-4"
+       style="fill:none;stroke:#000000;stroke-width:8.62117672"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>
